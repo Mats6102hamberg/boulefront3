@@ -1,93 +1,55 @@
 @media (max-width: 768px) {
     .header__content {
         flex-direction: column;
-        gap: 10px;
-        padding: 10px 0;
+        gap: 15px;
     }
-    
-    .header__logo {
-        font-size: 24px;
-    }
-    
-    .header__logo::before {
-        font-size: 28px;
-    }
-    
     .search {
         order: -1;
         width: 100%;
-        max-width: 280px;
+        max-width: 300px;
     }
-    
     .search__input {
         width: 100%;
-        font-size: 14px;
-        padding: 8px 12px;
     }
-    
     .navigation__list {
-        flex-direction: column;
-        padding: 10px;
+        flex-direction: row !important;
+        justify-content: center;
+        padding: 10px 0;
     }
-    
     .navigation__item {
-        margin: 2px 0;
-        width: 100%;
+        margin: 0 2px;
+        width: auto;
     }
-    
     .navigation__link {
-        padding: 12px 15px;
+        padding: 12px 10px;
         font-size: 14px;
         text-align: center;
         display: block;
-        width: 100%;
+        width: auto;
     }
-    
-    /* Minska header höjd */
-    .header {
-        position: relative; /* Inte sticky på mobil */
-    }
-    
-    /* Justera breadcrumbs */
-    .breadcrumbs {
-        padding: 10px 0;
-    }
-    
     .content-layout {
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 20px 15px;
+        gap: 30px;
     }
-    
     .sidebar {
         order: -1;
         position: static;
-        margin-bottom: 20px;
     }
-    
-    .hero {
-        padding: 40px 20px;
-    }
-    
     .hero__title {
-        font-size: 28px;
+        font-size: 32px;
     }
-    
-    .hero__subtitle {
-        font-size: 16px;
-    }
-    
     .news-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
     }
-    
     .newsletter {
-        padding: 30px 15px;
+        padding: 40px 20px;
     }
-    
     .newsletter__title {
-        font-size: 24px;
+        font-size: 28px;
+    }
+    body, html {
+        overflow-x: hidden;
+        height: auto;
     }
 }
 /* BEM Base styles */
