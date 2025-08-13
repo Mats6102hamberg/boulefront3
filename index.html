@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boulefront3 - Nyhetsbrev för Boulesporten</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Block -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__content">
+                <a href="#" class="header__logo">Boulefront</a>
+                
+                <!-- Search Block -->
+                <div class="search">
+                    <input type="text" class="search__input" placeholder="Sök nyheter, artiklar...">
+                    <button class="search__button">🔍</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation Block -->
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Hem</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Nyheter</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Kalender</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Boule Pro</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Worldsport Score</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Boulekonsulenten</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Svenska Bouleförbundet</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Bouledistrikt</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">AI / Artiklar / Resor / Planering</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumbs Block -->
+    <nav class="breadcrumbs">
+        <div class="breadcrumbs__container">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">Hem</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <span class="breadcrumbs__text">Nyheter</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Layout -->
+    <div class="content-layout">
+        <!-- Main Content Block -->
+        <main class="main-content">
+            <!-- Hero Section Block -->
+            <section class="hero">
+                <h1 class="hero__title">Välkommen till Boulefront</h1>
+                <p class="hero__subtitle">Ditt nyhetsbrev för allt inom boulesporten</p>
+            </section>
+
+            <!-- News Section Block -->
+            <section class="news-section">
+                <h2 class="news-section__title">Aktualiteter</h2>
+                
+                <div class="news-grid">
+                    <article class="news-card">
+                        <h3 class="news-card__title">SM i Boule 2025 närmar sig</h3>
+                        <p class="news-card__content">Förberedelserna är i full gång inför årets svenska mästerskap i boule. Över 200 spelare från hela landet väntas delta i tävlingen som hålls i Göteborg.</p>
+                        <time class="news-card__date">12 augusti 2025</time>
+                    </article>
+                    
+                    <article class="news-card">
+                        <h3 class="news-card__title">Ny träningsanläggning invigd</h3>
+                        <p class="news-card__content">Stockholm får en ny modern boulehall med 12 banor. Anläggningen är utrustad med de senaste säkerhetssystemen och kommer att vara öppen året runt.</p>
+                        <time class="news-card__date">10 augusti 2025</time>
+                    </article>
+                    
+                    <article class="news-card">
+                        <h3 class="news-card__title">Internationell turnering till Sverige</h3>
+                        <p class="news-card__content">För första gången på fem år kommer Sverige att vara värd för en stor internationell bouleturnering. Event planeras till sommaren 2026.</p>
+                        <time class="news-card__date">8 augusti 2025</time>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Newsletter Subscription Block -->
+            <section class="newsletter">
+                <h2 class="newsletter__title">Prenumerera på Boulefronts Nyhetsbrev</h2>
+                <p class="newsletter__description">Få de senaste nyheterna, tävlingsresultaten och expertanalyserna direkt i din inkorg. Helt gratis!</p>
+                
+                <form class="newsletter__form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Namn:</label>
+                        <input type="text" id="name" name="name" class="form__input" placeholder="Ditt fullständiga namn" required>
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="email" class="form__label">E-postadress:</label>
+                        <input type="email" id="email" name="email" class="form__input" placeholder="din@email.se" required>
+                    </div>
+                    
+                    <button type="submit" class="form__button">Prenumerera Nu</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Sidebar Block -->
+        <aside class="sidebar">
+            <div class="sidebar__section">
+                <h3 class="sidebar__title">Kategorier</h3>
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Tävlingar <span class="sidebar__count">(15)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Spelartips <span class="sidebar__count">(8)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Regelförändringar <span class="sidebar__count">(4)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Internationellt <span class="sidebar__count">(12)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Intervjuer <span class="sidebar__count">(6)</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar__section">
+                <h3 class="sidebar__title">Arkiv</h3>
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Augusti 2025 <span class="sidebar__count">(12)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Juli 2025 <span class="sidebar__count">(18)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Juni 2025 <span class="sidebar__count">(15)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Maj 2025 <span class="sidebar__count">(22)</span></a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Visa alla arkiv</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar__section">
+                <h3 class="sidebar__title">Snabblänkar</h3>
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Tävlingskalender</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Livescore</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Spelregler</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">Kontakta redaktionen</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer Block -->
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">© 2025 Boulefront. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
